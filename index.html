@@ -2,11 +2,132 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=./privacy-policy.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>YuMo Legal</title>
+    <meta
+      name="description"
+      content="Public legal and support pages for YuMo."
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #090a0d;
+        --panel: rgba(19, 21, 27, 0.88);
+        --panel-border: rgba(255, 255, 255, 0.1);
+        --text: #f4f4f5;
+        --muted: #b2b3bc;
+        --soft: #7f8393;
+        --accent: #7fd4d6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(circle at top right, rgba(108, 131, 255, 0.14), transparent 26rem),
+          radial-gradient(circle at bottom left, rgba(127, 212, 214, 0.1), transparent 22rem),
+          var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+      }
+
+      .wrap {
+        width: min(880px, calc(100% - 2rem));
+        margin: 0 auto;
+        padding: 4rem 0;
+      }
+
+      .eyebrow {
+        margin: 0 0 0.6rem;
+        color: var(--soft);
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        font-size: 0.78rem;
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 6vw, 4.2rem);
+        line-height: 0.96;
+        letter-spacing: -0.04em;
+      }
+
+      .intro {
+        margin-top: 1rem;
+        max-width: 42rem;
+        color: var(--muted);
+        font-size: 1.02rem;
+        line-height: 1.8;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: var(--panel);
+        border: 1px solid var(--panel-border);
+        border-radius: 28px;
+        padding: 1.5rem;
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+      }
+
+      .card h2 {
+        margin: 0 0 0.75rem;
+        font-size: 1.15rem;
+        line-height: 1.2;
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .link {
+        display: inline-block;
+        margin-top: 1rem;
+        color: var(--accent);
+        font-weight: 700;
+      }
+    </style>
   </head>
   <body>
-    <p><a href="./privacy-policy.html">Open YuMo Privacy Policy</a></p>
+    <main class="wrap">
+      <p class="eyebrow">YuMo</p>
+      <h1>Support and Legal</h1>
+      <p class="intro">
+        Public support and policy pages for YuMo, a Base mainnet USDC wallet for QR-based payments
+        and requests.
+      </p>
+
+      <section class="grid">
+        <a class="card" href="./support.html">
+          <h2>Support</h2>
+          <p>Contact details and help information for YuMo users.</p>
+          <span class="link">Open support page</span>
+        </a>
+
+        <a class="card" href="./privacy-policy.html">
+          <h2>Privacy Policy</h2>
+          <p>Read how YuMo handles information, device data, blockchain data, and third-party services.</p>
+          <span class="link">Open privacy policy</span>
+        </a>
+      </section>
+    </main>
   </body>
 </html>
