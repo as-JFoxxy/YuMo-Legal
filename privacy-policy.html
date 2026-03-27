@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YuMo Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy Policy for YuMo, a Base mainnet USDC wallet for QR-based payments and requests."
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #090a0d;
+        --panel: rgba(19, 21, 27, 0.88);
+        --panel-border: rgba(255, 255, 255, 0.1);
+        --text: #f4f4f5;
+        --muted: #b2b3bc;
+        --soft: #7f8393;
+        --accent: #7fd4d6;
+        --accent-2: #6c83ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(circle at top right, rgba(108, 131, 255, 0.14), transparent 26rem),
+          radial-gradient(circle at bottom left, rgba(127, 212, 214, 0.1), transparent 22rem),
+          var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+      }
+
+      .wrap {
+        width: min(880px, calc(100% - 2rem));
+        margin: 0 auto;
+        padding: 3rem 0 4rem;
+      }
+
+      .hero {
+        margin-bottom: 1.5rem;
+      }
+
+      .eyebrow {
+        margin: 0 0 0.5rem;
+        color: var(--soft);
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        font-size: 0.78rem;
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 6vw, 4.3rem);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+      }
+
+      .updated {
+        margin-top: 0.85rem;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--panel-border);
+        border-radius: 28px;
+        padding: 1.6rem;
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+      }
+
+      .card + .card {
+        margin-top: 1rem;
+      }
+
+      h2 {
+        margin: 0 0 0.85rem;
+        font-size: 1.2rem;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+      }
+
+      p {
+        margin: 0 0 0.9rem;
+        color: var(--muted);
+      }
+
+      ul {
+        margin: 0.25rem 0 0;
+        padding-left: 1.15rem;
+        color: var(--muted);
+      }
+
+      li + li {
+        margin-top: 0.42rem;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .contact {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-top: 0.25rem;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.8rem 1rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      footer {
+        margin-top: 1.5rem;
+        color: var(--soft);
+        font-size: 0.92rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="hero">
+        <p class="eyebrow">YuMo</p>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: 2026-03-27</p>
+      </header>
+
+      <section class="card">
+        <h2>Overview</h2>
+        <p>
+          YuMo is a mobile wallet application that helps users send, receive, and request USDC on
+          Base mainnet.
+        </p>
+        <p>
+          YuMo does not require users to create a hosted account. Wallet access is based on
+          device-stored wallet data, PIN protection, and optional biometrics.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Information YuMo Uses</h2>
+        <ul>
+          <li>wallet addresses</li>
+          <li>public blockchain transaction data</li>
+          <li>recovery phrase and wallet data stored locally on the user's device</li>
+          <li>PIN and local security settings stored locally on the user's device</li>
+          <li>optional biometric preference stored locally on the user's device</li>
+          <li>camera access for scanning QR codes</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Information Stored on Device</h2>
+        <p>
+          YuMo stores wallet-related security data locally on the device using platform storage
+          mechanisms, including secure storage where available.
+        </p>
+        <p>This may include:</p>
+        <ul>
+          <li>wallet seed or recovery material</li>
+          <li>PIN state</li>
+          <li>biometric preference</li>
+          <li>wallet readiness and onboarding state</li>
+        </ul>
+        <p>
+          YuMo is designed so this information is used locally on the device rather than through a
+          YuMo-hosted user account system.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Blockchain Data</h2>
+        <p>Transactions made through YuMo are recorded on public blockchains. This can include:</p>
+        <ul>
+          <li>wallet addresses</li>
+          <li>token transfer amounts</li>
+          <li>transaction hashes</li>
+          <li>timestamps</li>
+        </ul>
+        <p>
+          Blockchain activity is public by nature and may be visible through block explorers and
+          third-party infrastructure providers.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Camera Access</h2>
+        <p>
+          YuMo requests camera access only to scan QR codes for payment and wallet actions. YuMo
+          does not use the camera for background recording.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Third-Party Services</h2>
+        <p>
+          YuMo currently relies on third-party infrastructure providers to support app
+          functionality, including:
+        </p>
+        <ul>
+          <li>Base RPC infrastructure</li>
+          <li>Pimlico for account abstraction, bundling, and paymaster sponsorship</li>
+          <li>Expo services for build and app delivery workflows</li>
+        </ul>
+        <p>
+          These providers may process technical request data required to perform blockchain reads,
+          user operations, or build distribution tasks.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Data Sharing</h2>
+        <p>YuMo does not sell personal data.</p>
+        <p>
+          YuMo may share the minimum technical data necessary with infrastructure providers in
+          order to:
+        </p>
+        <ul>
+          <li>read blockchain data</li>
+          <li>send sponsored user operations</li>
+          <li>build and distribute mobile application binaries</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Data Retention</h2>
+        <p>
+          Most wallet security data used by YuMo is stored locally on the user's device until the
+          app is removed or local data is reset.
+        </p>
+        <p>
+          Public blockchain records cannot be deleted by YuMo because they are part of the
+          blockchain.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Your Choices</h2>
+        <ul>
+          <li>choose whether to enable biometrics</li>
+          <li>use PIN-based unlock instead</li>
+          <li>uninstall the app</li>
+          <li>
+            remove wallet data from the device by clearing the app or deleting the app, subject to
+            blockchain records remaining public
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Children</h2>
+        <p>YuMo is not intended for children.</p>
+      </section>
+
+      <section class="card">
+        <h2>Contact</h2>
+        <div class="contact">
+          <a class="pill" href="mailto:yumoappltd@gmail.com">yumoappltd@gmail.com</a>
+          <span class="pill">Website not currently provided</span>
+        </div>
+      </section>
+
+      <footer>
+        This policy should be reviewed again before public release if app behavior, providers, or
+        support contact details change.
+      </footer>
+    </main>
+  </body>
+</html>
