@@ -1,6 +1,6 @@
 # YuMo Privacy Policy
 
-Last updated: 2026-03-27
+Last updated: 2026-03-28
 
 This privacy policy describes how YuMo handles information when you use the app.
 
@@ -81,6 +81,7 @@ Users can:
 
 - choose whether to enable biometrics
 - use PIN-based unlock instead
+- use the in-app "Reset YuMo" option to delete local wallet data, PIN settings, biometrics preference, and cached transaction history from the device
 - uninstall the app
 - remove wallet data from their device by clearing the app or deleting the app, subject to blockchain records remaining public
 
